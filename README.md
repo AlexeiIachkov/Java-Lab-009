@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+The "blank" object in this code is mutable. It has defined coordinates in main and then riddle uses point p to modify blank.
 ```
 
 ```java
@@ -47,7 +47,7 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+findCenter provides the center coordinates of a rectangle while distance calculates the distance between two points.
 ```
 
 ```java
@@ -87,14 +87,14 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5,8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+At the end of main method, p1 and p2 are not pointing to the same object. They're both from box1 but if you change box1 it won't directly affect p1 or p2.
 ```
 
 ```java
@@ -142,6 +142,9 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
+```text
+You can add more specific parameters 
+```
 
 ## Part 4: Large Numbers
 
